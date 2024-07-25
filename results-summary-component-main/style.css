@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    display: flex; 
+    flex-direction: column;
+    height: 95vh;
+}
+header {
+    flex: 1;
+    text-align: center;
+    background-color:  hsl(241, 90%, 62%);
+    border-bottom-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    color: rgb(185, 202, 218);
+    margin-bottom: 2em;
+}
+#headd {
+   margin: 1.5rem;
+}
+.page-head {
+    margin: auto;
+    max-width: 15rem;
+}
+.page-head h3 {
+    margin: 1rem;
+}
+.page-head p {
+    margin-bottom: 2rem;
+}
+.score-head {
+    margin: auto;
+    background: rgb(50, 50, 180) ;
+    display: flex;
+    flex-direction: column;
+    height: 5rem;
+    border-radius: 90%;
+    width: 5rem;
+    justify-content: center;
+    align-items: center;
+}
+.score-head span {
+    color: #fff;
+    font-weight: 600;
+    font-size: 33px;
+}
+section {
+    padding: 0 2em;
+    text-align: center;
+}
+
+.page {
+    flex: ;
+}
+.page h3 {
+
+}
+.score {
+    padding: 1em;
+    max-width: 15rem;
+    background-color: aqua;
+    margin-top: 1em;
+}
+#attr {
+    float: left;
+}
+#value {
+    float: right;
+}
+
